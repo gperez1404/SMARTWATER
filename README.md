@@ -6,7 +6,8 @@ This repository contains different scripts and tools that can be used to optimis
   + Hydraulic
   + Economic
 
-#........................................................................................................................................................................
+#..............................
+
 02-Optimisation-Gurobi-MO.py 
 This script solves a Mixed-Integer Linear Programming Problems (MIP) using a multi-objaective function (MO) with economic and environmental criterea.
 This script uses as input an excel file with the right structure and the need Gurobi license.
@@ -23,4 +24,4 @@ This script uses as input an excel file with the right structure and the need Gu
                datetime                        
                itertools
 
-#........................................................................................................................................................................
+#..............................

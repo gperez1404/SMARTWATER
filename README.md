@@ -1,13 +1,26 @@
 # SMARTWATER
-This repository contains different scripts and tools to optimise the design of water distribution networks in ATACAMA
+This repository contains different scripts and tools that can be used to optimise and design water distribution networks in ATACAMA region (Chile), using Geospatial data with the followign dimensions:
 
-03-Optimisation-MIP.py = This script solves a Mixed-Integer Linear Programming Problems (MIP) for the  optimisation of a water distribution Network for water supply in Chile
-                         More info about this at:    https://docs.python-mip.com/en/latest/intro.html
-                         Dependencies: tqdm
-                                       pandas
-                                       mip
-                                       numpy
-                                       os
-                                       math
-                                       time
-                                       itertools
+  + Socio-enviromental
+  + Topographic
+  + Hydraulic
+  + Economic
+
+#........................................................................................................................................................................
+02-Optimisation-Gurobi-MO.py 
+This script solves a Mixed-Integer Linear Programming Problems (MIP) using a multi-objaective function (MO) with economic and environmental criterea.
+This script uses as input an excel file with the right structure and the need Gurobi license.
+
+ More info about how to install Gurobi and how to get a license at:   https://www.gurobi.com/academia/academic-program-and-licenses/
+ 
+ Python:
+ Dependencies: pandas
+               gurobipy
+               numpy                        
+               os                        
+               math                        
+               time                        
+               datetime                        
+               itertools
+
+#........................................................................................................................................................................
